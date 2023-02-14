@@ -11,6 +11,7 @@ Vite + Phaser + Typescript starter template.
 ```bash
 npx degit iwantantra/vite-phaser-ts my-game
 cd my-game
+npm install
 ```
 
 ## Available scripts
