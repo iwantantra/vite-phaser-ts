@@ -10,8 +10,8 @@ export default class HelloScene extends Phaser.Scene {
         this.load.image('vite-phaser-logo', 'assets/images/vite-phaser.png');
 
         // load static assets from url
-        this.load.image('sky', 'http://labs.phaser.io/assets/skies/space3.png');
-        this.load.image('red', 'http://labs.phaser.io/assets/particles/red.png');
+        this.load.image('sky', 'https://labs.phaser.io/assets/skies/space3.png');
+        this.load.image('red', 'https://labs.phaser.io/assets/particles/red.png');
     }
 
     create() {
