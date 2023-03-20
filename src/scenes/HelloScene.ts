@@ -1,4 +1,5 @@
 
+
 export default class HelloScene extends Phaser.Scene {
     constructor() {
         super('hello');
@@ -22,11 +23,6 @@ export default class HelloScene extends Phaser.Scene {
         this.add.image(400, 300, 'sky');
         const particles = this.add.particles('red');
         const logo = this.add.image(centerX, centerY, 'vite-phaser-logo');
-
-        // logo.setVelocity(100, 200);
-        // logo.setBounce(1, 1);
-        // logo.setCollideWorldBounds(true);
-
 
         const emitter = particles.createEmitter({
             speed: 100,

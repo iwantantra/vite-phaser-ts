@@ -16,14 +16,32 @@ npm install
 
 ## Available scripts
 
+### To run the project
+
 ```bash
 npm run dev
 ```
+
+### To build the project
 
 ```bash
 npm run build
 ```
 
+### To preview the build
+
 ```bash
 npm run preview
+```
+
+### To lint check your code using eslint
+
+```bash
+npm run lint
+```
+
+### To lint check and fix your code
+
+```bash
+npm run lint-fix
 ```
