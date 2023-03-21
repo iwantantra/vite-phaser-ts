@@ -69,4 +69,4 @@ create new folder inside this folder.
 
 ## License
 
-[MIT License]LICENSE.md
+[MIT License](LICENSE.md)
