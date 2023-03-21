@@ -2,6 +2,7 @@ import Phaser from "phaser";
 import HelloScene from "./scenes/HelloScene";
 
 const config: Phaser.Types.Core.GameConfig = {
+    parent: "app",
     type: Phaser.AUTO,
     width: 800,
     height: 600,
